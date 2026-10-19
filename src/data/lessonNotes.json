@@ -48,7 +48,11 @@
         ]
       },
       "readTimeMinutes": 7,
-      "relatedQuestions": ["NCA15", "NCA16", "NCA17"]
+      "relatedQuestions": [
+        "NCA15",
+        "NCA16",
+        "NCA17"
+      ]
     },
     {
       "id": "IAS36",
@@ -93,7 +97,11 @@
         ]
       },
       "readTimeMinutes": 8,
-      "relatedQuestions": ["NCA20", "NCA21", "NCA22"]
+      "relatedQuestions": [
+        "NCA20",
+        "NCA21",
+        "NCA22"
+      ]
     },
     {
       "id": "DEADCLIC",
@@ -142,7 +150,499 @@
         ]
       },
       "readTimeMinutes": 5,
-      "relatedQuestions": ["DE01", "DE02", "DE03", "DE04", "DE05", "DE06"]
+      "relatedQuestions": [
+        "DE01",
+        "DE02",
+        "DE03",
+        "DE04",
+        "DE05",
+        "DE06"
+      ]
+    },
+    {
+      "id": "f7-eps",
+      "title": "IAS 33 Earnings Per Share",
+      "section": "OTH",
+      "subtopic": "Earnings Per Share",
+      "ifrsStandard": "IAS 33",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "EPS = EARNINGS / SHARES\n                "
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-fin-instruments",
+      "title": "IFRS 9 Financial Instruments",
+      "section": "OTH",
+      "subtopic": "Financial Instruments",
+      "ifrsStandard": "IFRS 9",
+      "quickSummary": {
+        "coreConcept": "1",
+        "keyFormulas": [
+          "PV bilan split**.\n\nImtihon odatda quyida",
+          "Fair value'ga qayta baholash | Fair valu"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-framework",
+      "title": "Conceptual Framework for Financial Reporting",
+      "section": "OTH",
+      "subtopic": "Conceptual Framework",
+      "ifrsStandard": "Conceptual Framework",
+      "quickSummary": {
+        "coreConcept": "Mavzuning 3 ta ustuni: **KIM** (regulatory bodies) → **NIMA ASOSIDA** (Conceptual Framework: objective, qualitative characteristics, elements, recogni",
+        "keyFormulas": [
+          "Recoverable amount = higher of FVLCD (88",
+          "Impairment:**\n- Recoverable amount = hig",
+          "Value in use** (aktivlar) / **fulfilment",
+          "Fair value** | Orderly, arm's length ope"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-fx",
+      "title": "IAS 21 The Effects of Changes in Foreign Exchange Rates",
+      "section": "OTH",
+      "subtopic": "Foreign Exchange",
+      "ifrsStandard": "IAS 21",
+      "quickSummary": {
+        "coreConcept": "1️⃣ IAS 21 maqsadi va kurs turlari",
+        "keyFormulas": [
+          "Fair value (qayta baholash sanasidagi ku"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ias16",
+      "title": "IAS 16 Property, Plant and Equipment",
+      "section": "NCA",
+      "subtopic": "PPE",
+      "ifrsStandard": "IAS 16",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV'ni capitalise qilish va **unwinding**"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-ias20",
+      "title": "IAS 20 Accounting for Government Grants",
+      "section": "OTH",
+      "subtopic": "Government Grants",
+      "ifrsStandard": "IAS 20",
+      "quickSummary": {
+        "coreConcept": "- **Government assistance** — hukumatning ma'lum mezonlarga javob beradigan entity yoki entity'lar guruhiga **xos (specific)** iqtisodiy foyda berish ",
+        "keyFormulas": []
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "f7-ias23",
+      "title": "IAS 23 Borrowing Costs",
+      "section": "NCA",
+      "subtopic": "Borrowing Costs",
+      "ifrsStandard": "IAS 23",
+      "quickSummary": {
+        "coreConcept": "**Qualifying asset** — o'z maqsadli foydalanishi (intended use) yoki sotuvi (sale) uchun tayyor bo'lishiga **sezilarli uzoq vaqt (substantial period o",
+        "keyFormulas": [
+          "Fair value bo'yicha o'lchanadigan aktivl"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "f7-ias36",
+      "title": "IAS 36 Impairment of Assets",
+      "section": "NCA",
+      "subtopic": "Impairment",
+      "ifrsStandard": "IAS 36",
+      "quickSummary": {
+        "coreConcept": "1️⃣ IAS 36 ning maqsadi va scope",
+        "keyFormulas": [
+          "Recoverable amount** = higher of **FVLCD",
+          "Impairment of Assets\ntitle_uz: Aktivlarn",
+          "PV'si)\n                                 ",
+          "Value in use (VIU)** — aktivni ishlatish"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ias38",
+      "title": "IAS 38 Intangible Assets",
+      "section": "NCA",
+      "subtopic": "Intangibles",
+      "ifrsStandard": "IAS 38",
+      "quickSummary": {
+        "coreConcept": "**Research** — yangi **ilmiy yoki texnik bilim va tushuncha** olish maqsadida o'tkaziladigan original va rejalashtirilgan tadqiqot",
+        "keyFormulas": [
+          "Recoverable amount** = **max(Fair value ",
+          "Impairment** va loyiha tashlab yuborilga",
+          "Value in use)**\n**Impairment loss** = Ca",
+          "Fair value ishonchli o'lchansa** → alohi"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-ias40",
+      "title": "IAS 40 Investment Property",
+      "section": "OTH",
+      "subtopic": "Investment Property",
+      "ifrsStandard": "IAS 40",
+      "quickSummary": {
+        "coreConcept": "1",
+        "keyFormulas": [
+          "Fair value **notes**da oshkor qilinadi.\n"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ifrs5",
+      "title": "IFRS 5 Non-current Assets Held for Sale",
+      "section": "OTH",
+      "subtopic": "Discontinued Operations",
+      "ifrsStandard": "IFRS 5",
+      "quickSummary": {
+        "coreConcept": "3",
+        "keyFormulas": [
+          "Recoverable amount $820,000. Uskuna qand",
+          "Impairment kalkulyatorida sinab ko'ring:",
+          "Fair value less costs to sell (FVLCS)** "
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-leases",
+      "title": "IFRS 16 Leases",
+      "section": "NCA",
+      "subtopic": "Leases",
+      "ifrsStandard": "IFRS 16",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV'si (implicit rate yoki IBR).\n3. **Rig",
+          "ROU asset + liability jadvalini tuzasiz."
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-revenue",
+      "title": "IFRS 15 Revenue from Contracts with Customers",
+      "section": "OTH",
+      "subtopic": "Revenue",
+      "ifrsStandard": "IFRS 15",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV):**\n$1,331,000 / 1.10³ = $1,331,000 /"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "f7-tax",
+      "title": "IAS 12 Income Taxes",
+      "section": "TAX",
+      "subtopic": "Deferred Tax",
+      "ifrsStandard": "IAS 12",
+      "quickSummary": {
+        "coreConcept": "**Tax base** — soliq maqsadlari uchun shu aktiv yoki majburiyatga berilgan summa",
+        "keyFormulas": []
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
     }
   ]
 }
