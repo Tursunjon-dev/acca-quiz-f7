@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "version": 1,
+    "updated": "2026-10-19",
+    "totalNotes": 3
+  },
+  "notes": [
+    {
+      "id": "IFRS16",
+      "title": "IFRS 16 Leases",
+      "section": "NCA",
+      "subtopic": "Leases",
+      "ifrsStandard": "IFRS 16",
+      "quickSummary": {
+        "coreConcept": "IFRS 16 requires lessees to recognize nearly all leases on the balance sheet as a Right-of-Use (ROU) Asset and a Lease Liability. This eliminates the distinction between operating and finance leases for lessees, ensuring transparency of lease obligations. The standard applies to all leases except short-term leases (<12 months) and low-value assets (<$5,000).",
+        "keyFormulas": [
+          "Initial Lease Liability = Present Value of Lease Payments (PV = PMT × Annuity Factor)",
+          "Right-of-Use Asset = Initial Lease Liability + Initial Direct Costs + Prepayments - Lease Incentives",
+          "Depreciation Expense = ROU Asset ÷ Lease Term (straight-line)",
+          "Interest Expense = Lease Liability × Implicit Interest Rate (or Incremental Borrowing Rate)",
+          "Annual Lease Payment = PMT = (Principal × Rate) / (1 - (1 + Rate)^-n)"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Using the wrong discount rate: Must use the rate implicit in the lease if available; otherwise use the lessee's incremental borrowing rate",
+          "Forgetting to add initial direct costs to ROU Asset: These are NOT expensed immediately",
+          "Mixing up depreciation period: Use the SHORTER of lease term or useful life (unless purchase option is reasonably certain)",
+          "Ignoring residual value guarantees: Include in lease liability if probable payment",
+          "Variable lease payments tied to an index/rate: Include in liability, reassess when index changes"
+        ],
+        "mnemonics": [
+          {
+            "name": "ROU-GLI",
+            "description": "ROU Asset = Liability + Guarantees + Initial costs - Incentives. Remember the GLI (Good Lessee Includes) formula"
+          },
+          {
+            "name": "SLIDE",
+            "description": "Short-term exemption, Low-value exemption, Insurance not included, Depreciate ROU, Interest on liability"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Short-term lease exemption: ≤12 months (no renewal options counted) → expense straight-line",
+          "Low-value asset exemption: < $5,000 fair value (e.g., laptops, office furniture) → expense straight-line",
+          "Depreciation of ROU: Straight-line over lease term (or useful life if shorter)",
+          "Interest calculation: Reducing balance on the lease liability, NOT on the ROU asset",
+          "Statement of Cash Flows: Principal portion = financing activity; Interest portion = operating (or financing under IAS 7 choice)"
+        ]
+      },
+      "readTimeMinutes": 7,
+      "relatedQuestions": [
+        "NCA15",
+        "NCA16",
+        "NCA17"
+      ]
+    },
+    {
+      "id": "IAS36",
+      "title": "IAS 36 Impairment of Assets",
+      "section": "NCA",
+      "subtopic": "Impairment",
+      "ifrsStandard": "IAS 36",
+      "quickSummary": {
+        "coreConcept": "IAS 36 ensures that assets are carried at no more than their recoverable amount. When an asset's carrying amount exceeds its recoverable amount (higher of fair value less costs of disposal and value in use), an impairment loss must be recognized. The standard requires annual impairment testing for goodwill, intangibles with indefinite lives, and intangibles not yet available for use.",
+        "keyFormulas": [
+          "Recoverable Amount = Higher of (Fair Value Less Costs of Disposal, Value in Use)",
+          "Impairment Loss = Carrying Amount - Recoverable Amount",
+          "Value in Use = Sum of Discounted Future Cash Flows (PV = Σ [CF / (1+r)^t])",
+          "Cash-Generating Unit (CGU) Impairment: Allocate loss to goodwill first, then other assets pro-rata",
+          "Reversal Limit: Cannot reverse impairment on goodwill (ever) or above original cost for other assets"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong ordering of impairment allocation: MUST allocate to goodwill FIRST, then to other CGU assets pro-rata",
+          "Confusing corporate assets with CGU assets: Corporate assets (e.g., headquarters) need special allocation before impairment",
+          "Forgetting the recoverable amount is the HIGHER of the two values: Many students pick the lower",
+          "Not testing goodwill annually: Goodwill MUST be tested for impairment every year, regardless of indicators",
+          "Ignoring the value in use discount rate: Must use pre-tax discount rate reflecting current market assessments"
+        ],
+        "mnemonics": [
+          {
+            "name": "VU-FV-CD",
+            "description": "Value in Use, Fair Value, Costs of Disposal — recoverable amount is the MAX of VU and FV-CD"
+          },
+          {
+            "name": "GOW-PRO",
+            "description": "Goodwill first, Other assets Weighted pro-rata — the impairment allocation sequence"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Annual impairment test required: Goodwill, intangibles with indefinite useful lives, intangibles not yet available for use",
+          "Impairment indicators: External (market decline, adverse changes) and Internal (obsolescence, restructuring)",
+          "Goodwill impairment reversal: PROHIBITED under IAS 36",
+          "Other asset impairment reversal: Permitted up to the lower of (recoverable amount, carrying amount without prior impairment)",
+          "Discount rate for value in use: Must be pre-tax rate reflecting time value of money and asset-specific risks"
+        ]
+      },
+      "readTimeMinutes": 8,
+      "relatedQuestions": [
+        "NCA20",
+        "NCA21",
+        "NCA22"
+      ]
+    },
+    {
+      "id": "DEADCLIC",
+      "title": "DEAD CLIC: The Double Entry Framework",
+      "section": "DE",
+      "subtopic": "Double Entry & Theory",
+      "ifrsStandard": "Conceptual Framework",
+      "quickSummary": {
+        "coreConcept": "DEAD CLIC is the fundamental mnemonic for understanding debits and credits in double-entry bookkeeping. It classifies accounts into two groups: DEAD (Debits increase Expenses, Assets, Drawings) and CLIC (Credits increase Liabilities, Income, Capital). Every transaction must have equal debits and credits, maintaining the accounting equation: Assets = Liabilities + Equity.",
+        "keyFormulas": [
+          "Accounting Equation: Assets = Liabilities + Equity",
+          "Expanded Equation: Assets + Expenses = Liabilities + Equity + Revenue",
+          "Debit Entry = Increase in DEAD items OR Decrease in CLIC items",
+          "Credit Entry = Increase in CLIC items OR Decrease in DEAD items",
+          "Trial Balance: Total Debits = Total Credits (must always balance)"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Confusing debit/credit with increase/decrease: The side depends on the account type",
+          "Forgetting contra entries: Sales returns → debit sales returns (contra to sales), not debit sales",
+          "Drawing vs Dividend: Drawings are debits (DEAD), Dividends declared are debits to Retained Earnings",
+          "Accumulated depreciation: This is a CREDIT balance (contra-asset), not a debit",
+          "Bank overdrafts: Credit balance in bank account — it's a liability, not an asset"
+        ],
+        "mnemonics": [
+          {
+            "name": "DEAD",
+            "description": "Debits increase Expenses, Assets, Drawings — these accounts have normal debit balances"
+          },
+          {
+            "name": "CLIC",
+            "description": "Credits increase Liabilities, Income, Capital — these accounts have normal credit balances"
+          },
+          {
+            "name": "PEARS",
+            "description": "Purchases, Expenses, Assets have normal Debit balance; Revenue, Sales, Liabilities have normal Credit balance"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Every transaction has equal debits and credits",
+          "Assets + Expenses = Liabilities + Equity + Revenue (always balanced)",
+          "Normal balance: Assets/Expenses = Debit; Liabilities/Equity/Revenue = Credit",
+          "Contra accounts: Accumulated depreciation (credit contra-asset), Sales returns (debit contra-revenue)",
+          "Cash book: Debit = money in (asset increase), Credit = money out (asset decrease)"
+        ]
+      },
+      "readTimeMinutes": 5,
+      "relatedQuestions": [
+        "DE01",
+        "DE02",
+        "DE03",
+        "DE04",
+        "DE05",
+        "DE06"
+      ]
+    },
+    {
+      "id": "f7-eps",
+      "title": "IAS 33 Earnings Per Share",
+      "section": "OTH",
+      "subtopic": "Earnings Per Share",
+      "ifrsStandard": "IAS 33",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "EPS = EARNINGS / SHARES\n                "
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-fin-instruments",
+      "title": "IFRS 9 Financial Instruments",
+      "section": "OTH",
+      "subtopic": "Financial Instruments",
+      "ifrsStandard": "IFRS 9",
+      "quickSummary": {
+        "coreConcept": "1",
+        "keyFormulas": [
+          "PV bilan split**.\n\nImtihon odatda quyida",
+          "Fair value'ga qayta baholash | Fair valu"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-framework",
+      "title": "Conceptual Framework for Financial Reporting",
+      "section": "OTH",
+      "subtopic": "Conceptual Framework",
+      "ifrsStandard": "Conceptual Framework",
+      "quickSummary": {
+        "coreConcept": "Mavzuning 3 ta ustuni: **KIM** (regulatory bodies) → **NIMA ASOSIDA** (Conceptual Framework: objective, qualitative characteristics, elements, recogni",
+        "keyFormulas": [
+          "Recoverable amount = higher of FVLCD (88",
+          "Impairment:**\n- Recoverable amount = hig",
+          "Value in use** (aktivlar) / **fulfilment",
+          "Fair value** | Orderly, arm's length ope"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-fx",
+      "title": "IAS 21 The Effects of Changes in Foreign Exchange Rates",
+      "section": "OTH",
+      "subtopic": "Foreign Exchange",
+      "ifrsStandard": "IAS 21",
+      "quickSummary": {
+        "coreConcept": "1️⃣ IAS 21 maqsadi va kurs turlari",
+        "keyFormulas": [
+          "Fair value (qayta baholash sanasidagi ku"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ias16",
+      "title": "IAS 16 Property, Plant and Equipment",
+      "section": "NCA",
+      "subtopic": "PPE",
+      "ifrsStandard": "IAS 16",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV'ni capitalise qilish va **unwinding**"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-ias20",
+      "title": "IAS 20 Accounting for Government Grants",
+      "section": "OTH",
+      "subtopic": "Government Grants",
+      "ifrsStandard": "IAS 20",
+      "quickSummary": {
+        "coreConcept": "- **Government assistance** — hukumatning ma'lum mezonlarga javob beradigan entity yoki entity'lar guruhiga **xos (specific)** iqtisodiy foyda berish ",
+        "keyFormulas": []
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "f7-ias23",
+      "title": "IAS 23 Borrowing Costs",
+      "section": "NCA",
+      "subtopic": "Borrowing Costs",
+      "ifrsStandard": "IAS 23",
+      "quickSummary": {
+        "coreConcept": "**Qualifying asset** — o'z maqsadli foydalanishi (intended use) yoki sotuvi (sale) uchun tayyor bo'lishiga **sezilarli uzoq vaqt (substantial period o",
+        "keyFormulas": [
+          "Fair value bo'yicha o'lchanadigan aktivl"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 9
+    },
+    {
+      "id": "f7-ias36",
+      "title": "IAS 36 Impairment of Assets",
+      "section": "NCA",
+      "subtopic": "Impairment",
+      "ifrsStandard": "IAS 36",
+      "quickSummary": {
+        "coreConcept": "1️⃣ IAS 36 ning maqsadi va scope",
+        "keyFormulas": [
+          "Recoverable amount** = higher of **FVLCD",
+          "Impairment of Assets\ntitle_uz: Aktivlarn",
+          "PV'si)\n                                 ",
+          "Value in use (VIU)** — aktivni ishlatish"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ias38",
+      "title": "IAS 38 Intangible Assets",
+      "section": "NCA",
+      "subtopic": "Intangibles",
+      "ifrsStandard": "IAS 38",
+      "quickSummary": {
+        "coreConcept": "**Research** — yangi **ilmiy yoki texnik bilim va tushuncha** olish maqsadida o'tkaziladigan original va rejalashtirilgan tadqiqot",
+        "keyFormulas": [
+          "Recoverable amount** = **max(Fair value ",
+          "Impairment** va loyiha tashlab yuborilga",
+          "Value in use)**\n**Impairment loss** = Ca",
+          "Fair value ishonchli o'lchansa** → alohi"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-ias40",
+      "title": "IAS 40 Investment Property",
+      "section": "OTH",
+      "subtopic": "Investment Property",
+      "ifrsStandard": "IAS 40",
+      "quickSummary": {
+        "coreConcept": "1",
+        "keyFormulas": [
+          "Fair value **notes**da oshkor qilinadi.\n"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    },
+    {
+      "id": "f7-ifrs5",
+      "title": "IFRS 5 Non-current Assets Held for Sale",
+      "section": "OTH",
+      "subtopic": "Discontinued Operations",
+      "ifrsStandard": "IFRS 5",
+      "quickSummary": {
+        "coreConcept": "3",
+        "keyFormulas": [
+          "Recoverable amount $820,000. Uskuna qand",
+          "Impairment kalkulyatorida sinab ko'ring:",
+          "Fair value less costs to sell (FVLCS)** "
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-leases",
+      "title": "IFRS 16 Leases",
+      "section": "NCA",
+      "subtopic": "Leases",
+      "ifrsStandard": "IFRS 16",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV'si (implicit rate yoki IBR).\n3. **Rig",
+          "ROU asset + liability jadvalini tuzasiz."
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 7
+    },
+    {
+      "id": "f7-revenue",
+      "title": "IFRS 15 Revenue from Contracts with Customers",
+      "section": "OTH",
+      "subtopic": "Revenue",
+      "ifrsStandard": "IFRS 15",
+      "quickSummary": {
+        "coreConcept": "Key standard for ACCA F7 preparation",
+        "keyFormulas": [
+          "PV):**\n$1,331,000 / 1.10³ = $1,331,000 /"
+        ]
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "f7-tax",
+      "title": "IAS 12 Income Taxes",
+      "section": "TAX",
+      "subtopic": "Deferred Tax",
+      "ifrsStandard": "IAS 12",
+      "quickSummary": {
+        "coreConcept": "**Tax base** — soliq maqsadlari uchun shu aktiv yoki majburiyatga berilgan summa",
+        "keyFormulas": []
+      },
+      "tricksAndMemoryAids": {
+        "commonExamTraps": [
+          "Wrong discount rate: use implicit rate if available, else IBR",
+          "Mix up cost model vs revaluation model",
+          "Check scope - not all items fall under this standard",
+          "Pay attention to timing of recognition"
+        ],
+        "mnemonics": [
+          {
+            "name": "HIGHER",
+            "description": "Recoverable amount = Higher of FVLCD or VIU"
+          }
+        ],
+        "mustMemorizeRules": [
+          "Recognition criteria must be met before recording",
+          "Substance over form principle applies",
+          "Consider all relevant indicators before testing impairment",
+          "Discount to present value where applicable"
+        ]
+      },
+      "readTimeMinutes": 8
+    }
+  ]
+}
